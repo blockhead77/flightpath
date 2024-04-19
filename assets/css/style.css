@@ -9,17 +9,21 @@
   margin-top: 5%;
   margin-right: 10%;
 } */
-div {
-  #callout
-  background: url('../img/callout1.jpg') no-repeat center center fixed;
-}
-.intro-container {
+.callout {
   height: 50vh;
-  background: url('../img/callout1.jpg') no-repeat center;
-    background-size: auto;
-  display: flex;
+  background: url('../img/callout1.jpg') no-repeat top center;
   background-size: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  background-color: rgba(231, 22, 238, 0.3);
 }
