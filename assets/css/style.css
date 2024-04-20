@@ -1,17 +1,6 @@
-/* .container-1 {
-  background: url('../img/callout1.jpg');
-  width: 250px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 0.25rem solid black;
-  margin-left: 10%;
-  margin-top: 5%;
-  margin-right: 10%;
-} */
 .callout {
-  height: 50vh;
-  background: url('../img/callout1.jpg') no-repeat top center;
+  background: url('../img/callout1.jpg') no-repeat center center;
+  height: 30vh;
   background-size: 100%;
   display: flex;
   align-items: center;
@@ -21,9 +10,34 @@
 
 .opaque-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 50vh;
+  height: 30vh;
   width: 100%;
-  background-color: rgba(231, 22, 238, 0.3);
+  background-color: rgba(0, 44, 240, 0.514);
 }
+
+.callout-box {
+  inline-size: auto;
+  height:20vh;
+  background-color:rgba(241, 18, 18, 0.589); 
+  border-radius: 25px;
+  bottom:30px;
+  right:150px;
+  text-align: center;
+}
+.signup-btn{
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 24px;
+  border-radius: 50px;
+  min-width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #fd0;
+  font-weight: 500;
+  color: #222;
+}
+
+
+
