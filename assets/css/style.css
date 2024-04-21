@@ -1,5 +1,5 @@
 .callout {
-  background: url('../assets/img/callout1.jpg') no-repeat center center;
+  background: url('/assets/img/callout1.jpg') no-repeat center center;
   height: 30vh;
   background-size: 100%;
   display: flex;
