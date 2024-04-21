@@ -15,6 +15,10 @@
   background-color: rgba(0, 44, 240, 0.514);
 }
 
+.opaque-overlay-feat {
+   background-color: rgba(255, 255, 0, 0.2);
+}
+
 .callout-box {
   inline-size: auto;
   height:20vh;
@@ -28,7 +32,7 @@
   display: inline-block;
   outline: 0;
   border: none;
-  cursor: pointer;
+  cursor: crosshair;
   padding: 0 24px;
   border-radius: 50px;
   min-width: 200px;
@@ -39,5 +43,25 @@
   color: #222;
 }
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  }
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
