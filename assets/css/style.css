@@ -1,3 +1,6 @@
+.white-background {
+  background-color: rgb(255, 255, 255);
+}
 .callout {
   background: url('../img/callout1.jpg') no-repeat center center;
   height: 30vh;
@@ -16,7 +19,7 @@
 }
 
 .opaque-overlay-feat {
-   background-color: rgba(255, 255, 0, 0.2);
+   background-color:  rgb(255, 221, 0);
 }
 
 .callout-box {
@@ -65,3 +68,25 @@ div.desc {
   text-align: center;
 }
 
+.footer-bgc {
+  background-color:rgba(241, 18, 18, 0.897);
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
