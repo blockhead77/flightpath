@@ -16,6 +16,7 @@
   height: 30vh;
   width: 100%;
   background-color: rgba(0, 44, 240, 0.514);
+  z-index: 0;
 }
 
 .opaque-overlay-feat {
@@ -25,11 +26,12 @@
 .callout-box {
   inline-size: auto;
   height:20vh;
-  background-color:rgba(241, 18, 18, 0.589); 
+  background-color:rgba(241, 18, 18, 0.822); 
   border-radius: 25px;
   bottom:30px;
   right:150px;
   text-align: center;
+  z-index: 2;
 }
 .signup-btn{
   display: inline-block;
@@ -69,7 +71,7 @@ div.desc {
 }
 
 .footer-bgc {
-  background-color:rgba(241, 18, 18, 0.897);
+  background-color:rgba(255, 0, 0, 0.925);
 }
 
 .collapse {
@@ -83,4 +85,5 @@ div.desc {
   overflow: hidden;
   @include transition($transition-collapse);
 }
+
 
