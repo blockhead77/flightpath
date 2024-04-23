@@ -85,7 +85,8 @@
     - [Local Instructions](#local-instructions)
     </details></li>
 
-    <li><details>
+    <li>
+    <details>
     <summary><a href="#github-deployment">Github Deployment</a></summary>
 
     - [Github Instructions](#github-instructions)
@@ -94,10 +95,16 @@
 </details>
 
 6. <details open>
-    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
+    <summary><a href="#credits-and-contact">Credits and Contact</a></summary>
 
+    <ul>
+    <li><details>
+    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
+    
     - [Content](#content)
     - [Contact](#contact)
+    </details></li>
+    </ul>
 </details>
 
 ----
@@ -284,7 +291,7 @@ The Business Goals of Cleve Juniors are:
 - [Git](https://git-scm.com/)
 
 ### Local Instructions
-1. Download a copy of the project repository [here](https://github.com/blockhead77/flightpath/archive/refs/heads/main.zip) and extract the zip file to your base folder. Or you can clone the repository with:
+- 1. Download a copy of the project repository [here](https://github.com/blockhead77/flightpath/archive/refs/heads/main.zip) and extract the zip file to your base folder. Or you can clone the repository with:
     ```
     git clone https://github.com/blockhead77/flightpath.git
     ```
@@ -292,13 +299,13 @@ The Business Goals of Cleve Juniors are:
     ```
     git remote rm origin
     ```
-2. Open your IDE and choose the base directory.
+- 2. Open your IDE and choose the base directory.
 
-3. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a terminal command such as:
+- 3. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a terminal command such as:
     ```
     python3 -m http.server
     ```
-4. Enjoy!
+- 4. Enjoy!
 
 ## Github Deployment
 ### Github Instructions
