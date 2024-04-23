@@ -2,111 +2,322 @@
   <img src="assets/img/readme/views.png" alt="Home Page">
 </div>
 
-Welcome Stuart Kellock,
+[The Cleve Archers Junior Squad](https://blockhead77.github.io/flightpath/index.html)  website has been created to be an informative site. Showcasing the existing club's efforts, informing new viewers of what to expect and inviting those viewers to partake in a taster session or beginners course. As the site has been design to appeal to our juniors and new junior members alike, I created lots of clickable content to keep them entertained. I used the primary colors as found on most archery targets to give the site a familiar archery feel.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
+1. <details open>
+    <summary><a href="#user-experience">User Experience</a></summary>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+    <ul>
+    <li>
+    <details>
+    <summary><a href="#goals">Goals</a></summary>
 
-## Gitpod Reminders
+    - [Visitor Goals](#visitor-goals)
+    - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
+    </details></li>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
 
-`python3 -m http.server`
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Styling](#styling)
+    </details></li>
+    </ul>
+</details>
 
-A blue button should appear to click: _Make Public_,
+2. <details open>
+    <summary><a href="#features">Features</a></summary>
 
-Another blue button should appear to click: _Open Browser_.
+    <ul>
+    <li><details>
+    <summary><a href="#page-elements">Page Elements</a></summary>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - [All Pages](#all-pages)
+    - [Index Page](#index-page)
+    - [Gallery Page](#gallery-page)
+    - [Sign Up Page](#contact-page)
+    </details></li>
 
-A blue button should appear to click: _Make Public_,
+3. <details open>
+    <summary><a href="#technologies-used">Technologies Used</a></summary>
 
-Another blue button should appear to click: _Open Browser_.
+    - [Languages](#languages)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Platforms](#platforms)
+    - [Other Tools](#other-tools)
+</details>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+4. <details open>
+    <summary><a href="#testing">Testing</a></summary>
 
-To log into the Heroku toolbelt CLI:
+    <ul>
+    <li><details>
+    <summary><a href="#methods">Methods</a></summary>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - [Validation](#validation)
+    - [General Testing](#general-testing)
+    - [Mobile Testing](#mobile-testing)
+    - [Desktop Testing](#desktop-testing)
+    </details></li>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    <li><details>
+    <summary><a href="#bugs">Bugs</a></summary>
 
-------
+    - [Known Bugs](#known-bugs)
+    </details></li>
+    </ul>
+</details>
 
-## Release History
+5. <details open>
+    <summary><a href="#deployment">Deployment</a></summary>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    <ul>
+    <li><details>
+    <summary><a href="#local-deployment">Local Deployment</a></summary>
 
-**September 20 2023:** Update Python version to 3.9.17.
+    - [Local Preparation](#local-preparation)
+    - [Local Instructions](#local-instructions)
+    </details></li>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    <li><details>
+    <summary><a href="#github-deployment">Github Deployment</a></summary>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    - [Github Instructions](#github-instructions)
+    </details></li>
+    </ul>
+</details>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+6. <details open>
+    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    - [Content](#content)
+    - [Contact](#contact)
+</details>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+----
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# User Experience
+## Goals
+### Visitor Goals
+The target audience for Cleve Archers Junior Devleopment are:
+- People who want learn about archery.
+- People who are interested in activities for juniors.
+- People that want to learn more about different types of archery.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Visitor goals are:
+- Find an archery club to join for their child or for themselves.
+- Learn more about archery.
+- See what young archers do as part of their sport..
+- See what facilities are available.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Cleve Juniors meets these needs by:
+- Showcasing the different styles of bows.
+- Showcasing the different styles of shoots.
+- Highlighting the progress markers of an archer.
+- Providing social media links to follow the clubs sites.
+- Providing a sign up page to allow people to find out more.
+- Providing a gallery of inspiring pictures from archer events.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Business Goals
+The Business Goals of Cleve Juniors are:
+- Recruit more juniors to our squad.
+- Raise the profile of our club as a whole.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### User Stories
+- I expect to be informed as to what's involved in archery.
+- As a junior I want to know more about what I could experience.
+- I want to know why I would do archery.
+- I want to know if I can get help.
+- As  parent I want to know my child developmental needs are being met.
+- I would want to know if theier social medai sites are active.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Visual Design
+### Wireframes
+<div align="center">
+  <img src="assets/img/readme/wireframes2.png" alt="Fonts">
+</div>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Fonts
+- As I was pushed for time I used Bootstrap5's baked in font family.
+- I didn't want to detract from the content as juniors can sometimes struggle with reading.
+- A simple font means that there's one less barrier to a junior viewers enjoyment.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Icons
+- I had intented to take my icons from [Fontawesome](https://fontawesome.com/)'s Icon library but time ran out.
+- This is be part of futures updates as I loaded the CDN into the header in preparation.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Colors
+<div align="center">
+  <img src="assets/img/readme/target.jpg" alt="Color Pallette">
+</div>
 
-------
+- I chose to use the primary colous of an archery target for my palette.
+- I felt it gave a sense of visual continuity between the sport itself and the website.
 
-## FAQ about the uptime script
+### Styling
+- For this project I used Bootstrap5 and created custom CSS styles to suit the theme.
+- For this I created rounded images as the targets play a huge part in Archery and they are all rounded.
+- The primary colours have been picked from the target itself and applied in a broad spectrum throught the site.
 
-**Why have you added this script?**
+----
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+# Features
+## Page Elements
+### All Pages
+#### Navbar
+<div align="center">
+  <img src="assets/img/readme/nav.PNG" alt="Nav Bar">
+</div>
 
-**How will this affect me?**
+- The Navbar is simple, providing only 4 options aside from the home.
+- In future I will include a logo. The club hasn't developed a junior's logo yet.
+- The navbar is sticky / fixed to the top so it is visible no matter how far you scroll.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Footer
+<div align="center">
+  <img src="assets/img/readme/footer.PNG" alt="Footer">
+  </div>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- At the bottom every page, mainly highlighting contact and social links.
+- Nothing that detracts from the page content but there if you need it with clear defined links.
+- In future updates I will replace the links with icons.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Index Page
+#### Eye Tracking Design
+- By starting with blue at the top, with red text and gold/yellow at the bottom my plas was to encourage the visitor to follow the colous.
+- Archers know the points scoring goes from blue to red to gold.
+- I also used a gallery priview to grab the attentions of the juniors.
+<div align="center">
+  <img src="assets/img/readme/gallery-preview.PNG" alt="Footer">
+  </div>
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Gallery Page
+<div align="center">
+  <img src="assets/img/readme/gallery.PNG" alt="Gallery Page">
+</div>
 
-**Can I opt out?**
+### Sign Up Page
+<div align="center">
+  <img src="assets/img/readme/signup.PNG" alt="Sign Up Page">
+</div>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- A very simple page as I beleive visitors want to spend as little time as possible filling out forms.
+- The form has validation and is fully responsive.
+- I ensured the required fields were set so that a meaningful message is obtained.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+----
 
-**Anything more?**
+# Technologies Used
+## Languages
+- [HTML](w3.org/standards/webdesign/htmlcss)
+    * Page markup.
+- [CSS](w3.org/standards/webdesign/htmlcss)
+    * Styling.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Frameworks
+- [Bootstrap5](https://getbootstrap.com/)
+    * Used for basic styles and outline.
 
----
+## Libraries
+- [Fontawesome](https://fontawesome.com/)
+    * Used for icons
 
-Happy coding!
+## Platforms
+- [Github](https://github.com/)
+    * Storing code remotely and deployment.
+- [Gitpod](https://gitpod.io/)
+    * IDE for project development.
+
+## Other Tools
+- [Krita](https://krita.org/en/)
+    * To create images for the site - its an open source tool similar to Adobe Photoshop
+----
+
+# Testing
+## Methods
+### Validation
+<div align="center">
+  <img src="assets/img/readme/wc3-index.PNG" alt="wc3 Index age">
+</div>
+<div align="center">
+  <img src="assets/img/readme/wc3-about.PNG" alt="wc3 About Page">
+</div>
+<div align="center">
+  <img src="assets/img/readme/wc3-signup.PNG" alt="Sign Up Page">
+</div>
+
+- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+- Accessibility has been validated with [Page Speed Insights](https://pagespeed.web.dev/).
+
+### General Testing
+- Each time a feature was added, all the functions were tested to see if there was an impact.
+- The site was sent to friends for feedback and testing.
+- All forms have validation and will not submit without the proper information.
+- .gitignore file has been included to prevent system file commits.
+- External links open in a new tab.
+
+### Mobile Testing
+- I tested the site personally on my Android phone and tablet, going through the entire process, checking buttons, functions, checking out, etc. Friends were asked to test with IOS devices.
+- Firefox was utilised to inspect the site in mobile format, going through the pages and functions.
+
+### Desktop Testing
+- The site was developed on a desktop PC and testing we performed in chrome, firefox and edge.
+
+## Bugs
+### Known Bugs
+- I have had problems with the size of the banner text on mobile phones as it doesn't shrink very well.
+
+----
+
+# Deployment
+## Local Deployment
+### Local Preparation
+**Requirements:**
+- An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+
+### Local Instructions
+1. Download a copy of the project repository [here](https://github.com/blockhead77/flightpath/archive/refs/heads/main.zip) and extract the zip file to your base folder. Or you can clone the repository with:
+    ```
+    git clone https://github.com/blockhead77/flightpath.git
+    ```
+    To disconnect it from the master repository, use:
+    ```
+    git remote rm origin
+    ```
+2. Open your IDE and choose the base directory.
+
+3. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a terminal command such as:
+    ```
+    python3 -m http.server
+    ```
+4. Enjoy!
+
+## Github Deployment
+### Github Instructions
+1. Log in to your GitHub account.
+navigate to [https://github.com/blockhead77/flightpath](https://github.com/blockhead77/flightpath).
+1. You can set up your own repository and copy or clone it, or you can fork the repository.
+2. `git add`, `git commit` and `git push` to a GitHub repository, if necessary.
+3. GitHub pages will update from the master branch by default.
+4. Go to the **Settings** page of the repository.
+5. Scroll down to the **Github Pages** section.
+7. Select the Master Branch as the source and **Confirm** the selection.
+8. Wait a minute or two and it should be live for viewing.
+
+## Credits and Contact
+### Content
+- Nearly all text content gathered from from my own personal (fully consent given for use) collection of photos as the youth development officer of Cleve Archers.
+- Most code utilised from a site is documented and credited within the code.
+- I used code from [DEVRUNOPS](https://devrunops.com/markdown-table-of-contents/) to help create this README.
+- All other media used is my own.
+
+### Contact
+- Please feel free to contact me at `stuartkellock@gmail.com`

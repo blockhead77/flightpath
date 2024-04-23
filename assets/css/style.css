@@ -32,22 +32,8 @@
   right:150px;
   text-align: center;
  }
-.signup-btn{
-  display: inline-block;
-  outline: 0;
-  border: none;
-  cursor: crosshair;
-  padding: 0 24px;
-  border-radius: 50px;
-  min-width: 200px;
-  height: 50px;
-  font-size: 18px;
-  background-color: #fd0;
-  font-weight: 500;
-  color: #222;
-}
 
-div.gallery {
+ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -97,7 +83,7 @@ div.desc {
 color: rgb(0, 55, 114);
 font-weight: bold;
 }
-/* Was going t use this to make my iframe flexible on learning page
+/* I was going t use this to make my iframe flexible on learning page but didn't have enough time.
 .wrap {
   display: flex;
   flex-direction: column;
