@@ -100,7 +100,7 @@
     <ul>
     <li><details>
     <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
-    
+
     - [Content](#content)
     - [Contact](#contact)
     </details></li>
@@ -256,12 +256,16 @@ The Business Goals of Cleve Juniors are:
 <div align="center">
   <img src="assets/img/readme/wc3-about.PNG" alt="wc3 About Page">
 </div>
+
 <div align="center">
-  <img src="assets/img/readme/wc3-signup.PNG" alt="Sign Up Page">
+  <img src="assets/img/readme/css-error.PNG" alt="css error image">
 </div>
 
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
 - Accessibility has been validated with [Page Speed Insights](https://pagespeed.web.dev/).
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- the CSS validation revealed 2 errors but they were caused by the Bootstrap5 framework which I was advised to use.
+- this has been reported in the [Known Bugs](#known-bugs) section.
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
@@ -280,7 +284,15 @@ The Business Goals of Cleve Juniors are:
 ## Bugs
 ### Known Bugs
 - I have had problems with the size of the banner text on mobile phones as it doesn't shrink very well.
-
+- The image below shows an extract from the [Boot Strap 5 page](https://getbootstrap.com/docs/5.0/components/collapse/) detailing how to implement the css code.
+- The error in the second image is a result of that code.
+- I'm treating it as a bug until I understand more regarding the relationship between sass, css and html.
+<div align="center">
+  <img src="assets/img/readme/bootstrap5.PNG" alt="css error image">
+</div>
+<div align="center">
+  <img src="assets/img/readme/css-error.PNG" alt="css error image">
+</div>
 ----
 
 # Deployment
