@@ -95,7 +95,11 @@ div.desc {
   background-color:rgba(231, 227, 227, 0.774);
   max-width: 800px;
   }
-
+.link-col
+{
+color: rgb(0, 55, 114);
+font-weight: bold;
+}
 /* Was going t use this to make my iframe flexible on learning page
 .wrap {
   display: flex;
