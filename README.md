@@ -1,4 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<div align="center">
+  <img src="assets/img/readme/views.png" alt="Home Page">
+</div>
 
 Welcome Stuart Kellock,
 
