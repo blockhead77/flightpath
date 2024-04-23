@@ -10,28 +10,92 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-light justify-content-center white-background">
+    <nav class="navbar sticky-top navbar-light justify-content-center" style="background-color: #e3f2fd;">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link nav-bar-text" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="choose_archery.html">About Archery</a>
+                <a class="nav-link nav-bar-text" href="choose_archery.html">About Archery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="progress.html">Progress</a>
+                <a class="nav-link nav-bar-text" href="progress.html">Progress</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="improve.html">Improve</a>
+                <a class="nav-link nav-bar-text" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="signup.html">Sign Up</a>
+                <a class="nav-link nav-bar-text" href="signup.html">Sign Up</a>
             </li>
         </ul>
     </nav>
+    <section id="contact">
+        <div class="container-fluid contact-bgnd">
+            <div class="container contact-form-col">
+                <div class="text-center">
+                    <h1>Get in touch</h1>
+                     <p class="lead"><strong>Want to sign up for a beginners course or maybe a taster session?</strong></p>
+                     <p class="lead"><strong>Pop your details in and we'll be in touch soon.</strong></p>
+                
+                    <form action="https://formdump.codeinstitute.net/"  method="POST">
+                        <div>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" maxlength="20" placeholder="Joe" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" maxlength="20" placeholder="Bloggs" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">  Email  : </label>
+                            <input type="email" id="email" name="email" maxlength="40" placeholder="joebloggs@email.com" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="phone">Phone #:</label>
+                            <input type="tel" id="phone" name="phone" maxlength="14" placeholder="07900......">
+                       </div>
+                       <br>
+                       <div>
+
+                        <label for="interested-in">Interested in:</label>
+            
+                        <select id="interested-in" name="interested-in">
+            
+                            <option value="taster-session">Taster Session</option required>
+            
+                            <option value="beginners-course">Beginners Course</option>
+            
+                            <option value="general-information">General Information</option>
+
+                            <option value="everything">All of the above</option>
+            
+                        </select>
+                        <br>
+                        <br>
+                        <label for="comment">Anything else you'd like to know?</label>
+                        <br>
+                        <textarea rows="4" cols="40" id="comment" name="comment" placeholder="Anything else you'd like to add?">
+                        </textarea>
+                        <br>
+                        <br>
+
+                            <div class="pb-3">
+                                <input type="submit">
+                            </div>
+                
+                        
+                        </div>
+            
+                
+                   
+                    </form>
+            </div>
+        <div>
+    </section>
+    
 
     <footer class="text-uppercase text-center footer-bgc">
 

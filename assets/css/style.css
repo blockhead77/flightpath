@@ -1,9 +1,13 @@
-.white-background {
-  background-color: rgb(255, 255, 255);
+.nav-bar-text{
+  color: #001380;
 }
+.text-shorten{
+  text-overflow: ellipsis;
+}
+
 .callout {
   background: url('../img/callout1.jpg') no-repeat center center;
-  height: 30vh;
+  min-height: 30vh;
   background-size: 100%;
   display: flex;
   align-items: center;
@@ -13,7 +17,7 @@
 
 .opaque-overlay {
   position: absolute;
-  height: 30vh;
+  min-height: 30vh;
   width: 100%;
   background-color: rgba(0, 44, 240, 0.514);
   z-index: 0;
@@ -25,14 +29,12 @@
 
 .callout-box {
   inline-size: auto;
-  height:20vh;
   background-color:rgba(241, 18, 18, 0.822); 
   border-radius: 25px;
   bottom:30px;
   right:150px;
   text-align: center;
-  z-index: 2;
-}
+ }
 .signup-btn{
   display: inline-block;
   outline: 0;
@@ -85,5 +87,27 @@ div.desc {
   overflow: hidden;
   @include transition($transition-collapse);
 }
+.contact-bgnd{
+  background: url('../img/signup.jpg') no-repeat center center;
+}
 
+.contact-form-col{
+  background-color:rgba(231, 227, 227, 0.774);
+  max-width: 800px;
+  }
 
+/* Was going t use this to make my iframe flexible on learning page
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 80vh;
+  border: 2px solid blue;
+  min-height: 0;
+  overflow:hidden;
+}
+
+.frame {
+  flex: 1 1 auto;
+  border: 0;
+} */
