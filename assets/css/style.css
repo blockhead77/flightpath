@@ -1,9 +1,6 @@
 .nav-bar-text{
   color: #001380;
 }
-.text-shorten{
-  text-overflow: ellipsis;
-}
 
 .callout {
   background: url('../img/callout1.jpg') no-repeat center center;
